@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.wrapper {
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+.screen {
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+  padding: 20px 10px;
+  padding-right: 20px;
+  font-size: 40px;
+  border: 2px solid orange;
+}
+
+.calc-button-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.calc-button {
+  background-color: #d8d9db;
+  color: black;
+  border: none;
+  font-size: 40px;
+  height: 100px;
+  flex-basis: 24.5%;
+}
+
+.calc-button:hover {
+  background-color: #ebebeb;
+}
+
+.calc-button:active {
+  background-color: #bbbcbe;
+}
+
+.double {
+  flex-basis: 49.7%;
+}
+
+.triple {
+  flex-basis: 74.8%;
+}
+
+.calc-button:last-child {
+  background-color: orange;
+}
+
+.calc-button:last-child:hover {
+  background-color: #dfb07e;
+}
+
+.center-container {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: none;
+  border: none;
+}
+
+header {
+  border: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  height: 15em;
+}
+
+h1 {
+  padding-top: 0.5em;
+  font-family: "Lobster", cursive;
+  font-size: 58px;
+  color: white;
+}
